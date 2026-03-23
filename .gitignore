@@ -1,0 +1,62 @@
+# ================================
+#  VARIABLES DE ENTORNO
+# ================================
+.env
+
+# ================================
+#  ENTORNOS VIRTUALES
+# ================================
+venv/
+.venv/
+ENV/
+env/
+
+# ================================
+#  PYTHON / CACHE
+# ================================
+__pycache__/
+*.py[cod]
+*.so
+.pytest_cache/
+.coverage
+htmlcov/
+*.log
+
+# ================================
+#  CARPETAS GENERADAS POR LA APP
+# ================================
+uploads/
+/reportes_generados/
+/InformacionContexto/
+
+# ================================
+#  EDITORES / IDE
+# ================================
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# ================================
+#  SISTEMA OPERATIVO
+# ================================
+Thumbs.db
+.DS_Store
+
+
+# ================================
+#  ¡IMPORTANTE!
+#  alembic/ y alembic.ini SÍ deben estar en Git
+#  para sincronizar migraciones entre dispositivos
+# ================================
+# (No se incluyen, se suben por defecto)
+
+# Archivos
+/estructura.txt
+
+# Ignorados  momentaneamnente 
+/Informes/
+
+
+
+
