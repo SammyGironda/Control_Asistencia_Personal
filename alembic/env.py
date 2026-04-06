@@ -30,6 +30,13 @@ from app.features.contracts.ajuste_salarial.models import (  # noqa: F401
     ParametroImpuesto
 )
 
+# --- Semana 5: Attendance - Marcaciones ---
+from app.features.attendance.marcacion.models import (  # noqa: F401
+    Marcacion,
+    ArchivoExcel,
+    IncidenciaMarcacion
+)
+
 # --- Semana 5-7: Attendance ---
 # from app.features.attendance.marcacion.models import Marcacion
 # from app.features.attendance.asistencia_diaria.models import AsistenciaDiaria

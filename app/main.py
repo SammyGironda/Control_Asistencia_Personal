@@ -68,6 +68,13 @@ from app.features.contracts.ajuste_salarial.models import (  # noqa: F401
     ParametroImpuesto, MotivoAjusteEnum
 )
 
+# --- Semana 5: Attendance - Marcaciones ---
+from app.features.attendance.marcacion.models import (  # noqa: F401
+    Marcacion, ArchivoExcel, IncidenciaMarcacion,
+    OrigenDatoEnum, TipoMarcacionEnum, EstadoProcesamientoEnum,
+    TipoIncidenciaEnum, EstadoResolucionEnum
+)
+
 
 # ============================================================
 # ROUTERS - Se agregan por semana
@@ -94,6 +101,10 @@ from app.features.contracts.contrato.router import router as contrato_router
 from app.features.contracts.ajuste_salarial.router import router as ajuste_salarial_router
 app.include_router(contrato_router, prefix=settings.API_PREFIX)
 app.include_router(ajuste_salarial_router, prefix=settings.API_PREFIX)
+
+# --- Semana 5: Attendance - Marcaciones ---
+from app.features.attendance.marcacion.router import router as marcacion_router
+app.include_router(marcacion_router, prefix=settings.API_PREFIX)
 
 # --- Semana 5-7: Attendance ---
 # from app.features.attendance.router import router as attendance_router
