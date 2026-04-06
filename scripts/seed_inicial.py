@@ -18,6 +18,7 @@ from app.core.database import SessionLocal, engine
 from app.db.base import Base
 from app.features.auth.rol.models import Rol
 from app.features.auth.usuario.models import Usuario
+from app.features.employees.empleado.models import Empleado
 from app.features.employees.departamento.models import Departamento, ComplementoDep
 from app.features.employees.cargo.models import Cargo
 
