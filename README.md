@@ -91,8 +91,8 @@ Después de ejecutar el seed:
 - ✅ **Semana 3:** Módulo Employees completo
 - ✅ **Semana 4:** Módulo Contracts
 - ✅ **Semana 5:** Módulo Marcaciones + Upload Excel
-- ⏳ **Semana 6:** Módulo Asistencia Diaria + Worker
-- ⏳ **Semana 7:** Feriados + Cumpleaños + Justificaciones
+- ✅ **Semana 6:** Módulo Asistencia Diaria + Worker
+- ✅ **Semana 7:** Feriados + Cumpleaños + Justificaciones
 - ⏳ **Semana 8:** Módulo Reports
 - ⏳ **Semana 9:** JWT + Tests
 - ⏳ **Semana 10:** Pulido Final
